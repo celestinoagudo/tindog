@@ -1,0 +1,16 @@
+section#title {
+  background-color: #ff4c68;
+}
+
+#title h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title div.container-fluid{
+    padding: 3% 15%;
+}
+
+
