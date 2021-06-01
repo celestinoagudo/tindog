@@ -18,7 +18,7 @@ section#title {
 }
 
 #title div.container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar-brand{
@@ -44,11 +44,15 @@ section#title {
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 #features{
   text-align: center;
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .icon{
@@ -108,6 +112,14 @@ h2{
   padding: 7% 15%;
 }
 
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
 
 
 
