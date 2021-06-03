@@ -6,7 +6,7 @@ section#title {
 }
 
 #title h1 {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
@@ -84,11 +84,9 @@ section#title {
   color: #fff;
 }
 
-h2{
-  font-family: "Montserrat";
+#pricing h2{
   font-size: 3rem;
   line-height: 1.5;
-  font-weight: bold;
 }
 
 .testimonial-image{
@@ -119,6 +117,48 @@ h2{
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#cta h3{
+  /* font-family: "Montserrat"; */
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 2%;
+}
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.footer-icon{
+  margin: 20px 10px;
+
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 
