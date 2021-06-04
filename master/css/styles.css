@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat";
 }
@@ -19,25 +23,33 @@ body {
   margin: 5% 3% 5% 0;
 }
 
-.align-center{
+.align-center {
   text-align: center;
 }
 
-.general-padding{
+.general-padding {
   padding: 7% 15%;
 }
 
-/* Title Section Styles */
-
-#title {
-  background-color: #ff4c68;
+.black-light-shade {
+  color: #454545;
 }
+
+.light-gray {
+  color: #8f8f8f;
+}
+
+.colored-background {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Title Section Styles */
 
 #title h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-  color: #fff;
 }
 
 #title .navbar {
@@ -90,10 +102,6 @@ body {
   color: #ff4c68;
 }
 
-#features p {
-  color: #8f8f8f;
-}
-
 #features .features-box {
   padding: 0 5%;
 }
@@ -135,14 +143,9 @@ body {
 
 /* CTA Section Styles */
 
-#cta {
-  background-color: #ff4c68;
-}
-
 #cta h3 {
   font-size: 3rem;
   font-weight: bold;
-  color: #fff;
   line-height: 1.5;
   margin-bottom: 2%;
 }
@@ -151,6 +154,7 @@ body {
 
 #footer {
   background-color: #fff;
+  color: #454545;
 }
 
 #footer .footer-icon {
